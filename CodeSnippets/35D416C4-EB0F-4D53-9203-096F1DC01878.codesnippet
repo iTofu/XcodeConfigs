@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyvaruitextfieldleo</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var &lt;#name#&gt;TextField = UITextField().then {
+  $0.backgroundColor = &lt;#UIColor#&gt;
+  $0.font = &lt;#UIFont#&gt;
+  $0.textColor = &lt;#UIColor#&gt;
+  $0.clearButtonMode = .whileEditing
+  $0.keyboardType = &lt;#.phonePad#&gt;
+  $0.returnKeyType = &lt;#.done#&gt;
+  $0.attributedPlaceholder = NSAttributedString(
+    string: &lt;#placeholder#&gt;,
+    attributes: [
+      .foregroundColor: &lt;#UIColor#&gt;,
+    ]
+  )
+  $0.leftView = UIView(frame: CGRect(x: 0, y: 0, width: &lt;#spacing#&gt;, height: 0))
+  $0.rightView = UIView(frame: CGRect(x: 0, y: 0, width: &lt;#spacing#&gt;, height: 0))
+  $0.leftViewMode = .always
+  $0.rightViewMode = .always
+  $0.setCornerRadius(&lt;#corner#&gt;, masksToBounds: true, shouldRasterize: true)
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>35D416C4-EB0F-4D53-9203-096F1DC01878</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Lazy Var UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
