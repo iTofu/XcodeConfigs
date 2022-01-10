@@ -3,20 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apptraitcollectionuserinterfacestyleleo</string>
+	<string>switchappuserinterfacestyleleo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>switch appTraitCollection.userInterfaceStyle {
-case .dark:
-  &lt;#break#&gt;
-
+	<string>switch appUserInterfaceStyle {
 case .light:
   &lt;#break#&gt;
-
-case .darkForVideo:
+case .dark:
   &lt;#break#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -26,7 +22,7 @@ case .darkForVideo:
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>App Trait Collection UserInterfaceStyle</string>
+	<string>App Trait Collection AppUserInterfaceStyle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

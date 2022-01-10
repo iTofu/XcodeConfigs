@@ -3,41 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initframecgrectleo</string>
+	<string>assertionfailureinvalidimplementleo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class &lt;#nameView#&gt;: BaseView {
-
-  // MARK: Lazy Vars
-
-
-}
-
-extension &lt;#nameView#&gt; {
-  override func setup() {
-    super.setup()
-
-
-    startObservingTraitCollection(target: .appUserInterfaceStyle)
-  }
-
-  override func appTraitCollectionDidChange() {
-    super.appTraitCollectionDidChange()
-
-    
-  }
-}</string>
+	<string>assertionFailure("Invalid implement")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D99D4B69-C223-4D0D-8F71-A726C5A7D1C7</string>
+	<string>9A5F8231-390F-4867-B5E3-7C6077D025F6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Init Frame</string>
+	<string>Assertion Failure Invalid Implement</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

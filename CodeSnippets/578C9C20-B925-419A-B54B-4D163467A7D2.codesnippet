@@ -9,15 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#name#&gt;Delegate: class {
-  func renderView()
-}
-
-protocol &lt;#name#&gt;Interface {
-  var delegate: &lt;#name#&gt;Delegate? { get set }
-
-
-}
+	<string>protocol &lt;#name#&gt;Delegate: ViewModelDelegate {}
 
 class &lt;#name#&gt;: ViewModel {
 
@@ -28,12 +20,6 @@ class &lt;#name#&gt;: ViewModel {
 
 extension &lt;#name#&gt; {
 
-}
-
-// MARK: - &lt;#name#&gt;Interface
-
-extension &lt;#name#&gt;: &lt;#name#&gt;Interface {
-
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>578C9C20-B925-419A-B54B-4D163467A7D2</string>
@@ -42,7 +28,7 @@ extension &lt;#name#&gt;: &lt;#name#&gt;Interface {
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ViewModel</string>
+	<string>View Model</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

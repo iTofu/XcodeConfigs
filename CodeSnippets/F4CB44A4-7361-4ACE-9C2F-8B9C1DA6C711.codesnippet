@@ -3,29 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazyvaruibuttonleo</string>
+	<string>switchresponseresultleo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private lazy var &lt;#name#&gt;Button = UIButton().then {
-  $0.backgroundColor = .v5Style.blue
-  $0.titleLabel?.font = &lt;#UIFont#&gt;
-  $0.setTitle(&lt;#T##title: String?##String?#&gt;, for: .normal)
-  $0.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .normal)
-  $0.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: .normal)
-  $0.setCornerRadius(&lt;#corner#&gt;, masksToBounds: true, shouldRasterize: true)
-  $0.addTarget(self, action: #selector(&lt;#T##@objc method#&gt;), for: .touchUpInside)
+	<string>switch response.result {
+case .success(let responseObject):
+  let json = responseObject.dataJSON
+  &lt;#code#&gt;
+case .failure(let error):
+  DDLogError(error.localizedFailureReason)
+  self.delegate?.showInfoHUD(error.localizedFailureReason)
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>74FD931D-3C36-4E65-BB3F-690065DDCC09</string>
+	<string>F4CB44A4-7361-4ACE-9C2F-8B9C1DA6C711</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Lazy Var UIButton</string>
+	<string>Switch Response Result</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

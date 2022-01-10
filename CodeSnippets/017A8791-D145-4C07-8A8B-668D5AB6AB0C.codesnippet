@@ -3,41 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initframecgrectleo</string>
+	<string>v5styledynamiccontentcolorleo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class &lt;#nameView#&gt;: BaseView {
-
-  // MARK: Lazy Vars
-
-
-}
-
-extension &lt;#nameView#&gt; {
-  override func setup() {
-    super.setup()
-
-
-    startObservingTraitCollection(target: .appUserInterfaceStyle)
-  }
-
-  override func appTraitCollectionDidChange() {
-    super.appTraitCollectionDidChange()
-
-    
-  }
-}</string>
+	<string>.v5Style.dynamicContent.alpha(&lt;#T##alpha: CGFloat##CGFloat#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D99D4B69-C223-4D0D-8F71-A726C5A7D1C7</string>
+	<string>017A8791-D145-4C07-8A8B-668D5AB6AB0C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Init Frame</string>
+	<string>V5Style Dynamic Content Color</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

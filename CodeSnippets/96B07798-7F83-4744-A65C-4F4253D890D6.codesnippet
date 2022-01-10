@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIColor(hex: 0x&lt;#value#&gt;)</string>
+	<string>.hex(0x&lt;#value#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>96B07798-7F83-4744-A65C-4F4253D890D6</string>
 	<key>IDECodeSnippetLanguage</key>

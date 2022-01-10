@@ -3,33 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apptraitcollectionchatstorytheme</string>
+	<string>snpmakeconstraintsleo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>switch appTraitCollection.chatStoryTheme {
-case .darkQQ:
-  &lt;#break#&gt;
-
-case .darkWechat:
-  &lt;#break#&gt;
-
-case .lightQQ:
-  &lt;#break#&gt;
-
-case .lightWechat:
-  &lt;#break#&gt;
+	<string>snp.makeConstraints {
+  $0.&lt;#constraints#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>922E2D6D-5F69-433B-BDC4-455E89B31B78</string>
+	<string>5DAC6BF2-24A9-42D9-A221-BC6D1BA472C1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>App Trait Collection ChatStoryTheme</string>
+	<string>Snp Make Constraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

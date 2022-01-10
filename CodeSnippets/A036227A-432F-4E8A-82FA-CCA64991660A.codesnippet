@@ -13,7 +13,7 @@
   $0.backgroundColor = &lt;#UIColor#&gt;
   $0.contentMode = .scaleAspectFill
   $0.clipsToBounds = true
-  $0.setCornerRadius(&lt;#T##cornerRadius: CGFloat##CGFloat#&gt;, masksToBounds: true, shouldRasterize: &lt;#T##Bool#&gt;)
+  $0.setCornerRadius(&lt;#T##cornerRadius: CGFloat##CGFloat#&gt;, masksToBounds: false, shouldRasterize: &lt;#T##Bool#&gt;)
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A036227A-432F-4E8A-82FA-CCA64991660A</string>
